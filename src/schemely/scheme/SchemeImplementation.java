@@ -1,7 +1,6 @@
 package schemely.scheme;
 
 import com.intellij.openapi.project.Project;
-import schemely.scheme.kawa.KawaScheme;
 import schemely.scheme.sisc.SISCScheme;
 import schemely.settings.SchemeProjectSettings;
 

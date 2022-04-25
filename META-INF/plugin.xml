@@ -77,7 +77,7 @@
     <projectService serviceInterface="schemely.settings.SchemeProjectSettings"
                     serviceImplementation="schemely.settings.SchemeProjectSettings"/>
 
-    <toolWindow id="Scheme.REPL" secondary="true" icon="/schemely/icons/lambda.png" anchor="right" factoryClass="schemely.repl.toolwindow.REPLToolWindowFactory"/>
+<!--    <toolWindow id="Scheme.REPL" secondary="true" icon="/schemely/icons/lambda.png" anchor="right" factoryClass="schemely.repl.toolwindow.REPLToolWindowFactory"/>-->
     <!--<editorActionHandler action="EditorEnter" implementationClass="schemely.repl.toolwindow.actions.REPLEnterAction" order="FIRST"/>-->
 
     <methodNavigationOffsetProvider implementation="schemely.navigation.SchemeNavigationOffsetProvider"/>
@@ -107,7 +107,7 @@
     <!--</action>-->
 
     <!-- REPL-related actions -->
-    <group id="Scheme.REPL.Group"
+    <!--<group id="Scheme.REPL.Group"
            class="schemely.repl.actions.SchemeReplActionGroup"
            text="Scheme REPL" description="Scheme" popup="true">
 
@@ -168,7 +168,7 @@
             class="com.intellij.openapi.actionSystem.EmptyAction"
             text="Select Next History Item">
       <keyboard-shortcut keymap="$default" first-keystroke="control DOWN"/>
-    </action>
+    </action>-->
 
   </actions>
 

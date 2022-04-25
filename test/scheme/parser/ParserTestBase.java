@@ -52,7 +52,7 @@ public class ParserTestBase
   protected IdeaProjectTestFixture createFixture()
   {
     TestFixtureBuilder<IdeaProjectTestFixture> fixtureBuilder =
-      IdeaTestFixtureFactory.getFixtureFactory().createLightFixtureBuilder();
+      IdeaTestFixtureFactory.getFixtureFactory().createLightFixtureBuilder("xxx");
     return fixtureBuilder.getFixture();
   }
 
