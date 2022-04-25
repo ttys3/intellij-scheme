@@ -4,13 +4,14 @@
   <description>Plugin for supporting Scheme programming language</description>
   <category>Custom Languages</category>
   <version>0.1.7</version>
-  <vendor url="https://saigut.com">Tony Saigut</vendor>
+  <vendor url="https://github.com/ttys3/intellij-scheme">ttyS3</vendor>
   <depends>com.intellij.modules.lang</depends>
   <depends>com.intellij.modules.platform</depends>
   <idea-version since-build="103.72"/>
 
   <change-notes><![CDATA[
     1. removed REPL
+
     2. got it work with latest IntelliJ 2022.1
     ]]>
   </change-notes>
